@@ -1,0 +1,91 @@
+body{
+  background-image: linear-gradient(rgb(184, 207, 189), rgba(184, 221, 181, 0.397))
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.folio{
+  display:block;
+  /* justify-content:center; */
+  background-color:rgba(252, 227, 190, 0.719);
+  border:0cqh dotted rgba(187, 42, 66, 0.075);
+margin:2em;
+font-size:8px;
+box-shadow:inset 0px 1px 2px .6px rgba(114, 112, 221, 0.363);
+color:rgb(105, 95, 95);
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align:start;
+padding-left:90px;
+flex-wrap: wrap;
+width:40%;
+padding:2em;
+margin-left:20px;
+padding-left:30px;
+background-image:url('https://images.pexels.com/photos/10526880/pexels-photo-10526880.jpeg?cs=srgb&dl=pexels-ron-lach-10526880.jpg&fm=jpg')
+}
+
+/* .gbImg{
+  display:block;
+  height:50px;
+} */
+
+.titleTxt{
+  font-size:16px;
+  display:flex;
+  justify-content:center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight:500
+}
+
+.dated{
+  display:flex;
+  justify-content:end;
+}
+
+.listedFeat{
+  display:flex;
+  justify-content:start;
+  /* color:blue; */
+  font-size:12px;
+  font-weight:bold;
+  color:rgb(153, 44, 44);
+  /* text-align: center; */
+  margin-bottom:1.6px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
