@@ -57,6 +57,10 @@ background-image:url('https://images.pexels.com/photos/10526880/pexels-photo-105
   height:50px;
 } */
 
+.cost{
+  color:rgb(98, 177, 98);
+}
+
 .titleTxt{
   font-size:16px;
   display:flex;

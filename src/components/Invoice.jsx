@@ -9,7 +9,7 @@ function Invoice(props){
         <h1>Customer: {props.folio.person}</h1>
         <h1>Product: {props.folio.toy.name}</h1>
         <h1>Color: {props.folio.toy.type}</h1>
-        <h1>Price: ${props.folio.toy.cost}.00</h1>
+        <h1 className='cost'>Price: ${props.folio.toy.cost}.00</h1>
         <ul>
             <h2>Features:</h2>
     {props.folio.toy.features.map((features)=>{
